@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24669" started-at="2023-07-07T08:10:08Z" finished-at="2023-07-07T08:10:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24669" started-at="2023-07-07T08:10:08Z" finished-at="2023-07-07T08:10:32Z">
+      <class name="org.test.CyclosProject">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.test.CyclosProject@343f4d3d]" name="setup" is-config="true" duration-ms="162" started-at="2023-07-07T08:10:08Z" finished-at="2023-07-07T08:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.CyclosProject@343f4d3d]" name="beforeMethod" is-config="true" duration-ms="4926" started-at="2023-07-07T08:10:08Z" finished-at="2023-07-07T08:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.test.CyclosProject@343f4d3d]" name="loginPage" duration-ms="17673" started-at="2023-07-07T08:10:13Z" data-provider="datas" finished-at="2023-07-07T08:10:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PaymentSender]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PremKumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15-07-2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Immediate requirmenet so complete the payment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.test.CyclosProject@343f4d3d]" name="afterMethod" is-config="true" duration-ms="1295" started-at="2023-07-07T08:10:31Z" finished-at="2023-07-07T08:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=CyclosProject.loginPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.test.CyclosProject@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.test.CyclosProject@343f4d3d]" name="tearDown" is-config="true" duration-ms="596" started-at="2023-07-07T08:10:32Z" finished-at="2023-07-07T08:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.test.CyclosProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
